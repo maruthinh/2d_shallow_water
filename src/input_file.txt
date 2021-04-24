@@ -1,0 +1,16 @@
+#general input
+#flow type
+steady #steady for steady flow, unsteady for unsteady flow
+#cfl number
+0.1
+#order of accuracy
+2 	#1 for first order, 2 for second order
+#flux information like llf, movers, moversle, moversh, roe
+movers_h
+#time accuracy
+ssprk3	#explicit for forward Euler, ssprk3 for strong stability preserving rk-3
+#test-case to be solved (input the test case file)
+shockreflection.txt
+
+
+

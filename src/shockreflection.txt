@@ -1,0 +1,12 @@
+#shock reflection test cases
+#grid information
+60 			#no of grid points in x-direction=Nx
+20 			#no of grid points in y-direction=Ny
+#grid file name from which grid will be read
+ShockReflectionGrid6020.dat	#grid file name=grid_file
+#inial conditions
+1.0  		#density at left state=Icond[0]
+2.9 		#Mach number=Icond[1]
+0.0  		#velocity in y-dir=Icond[2]
+0.714285714 	#pressure=Icond[3]
+
